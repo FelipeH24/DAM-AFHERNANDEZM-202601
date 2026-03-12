@@ -1,12 +1,23 @@
 import { StyleSheet } from "react-native";
-import { colors, space } from "../../themes";
-
 
 export const appStyles = StyleSheet.create({
+
   safeArea: {
     flex: 1,
-    alignItems: "center",
     justifyContent: "center",
-    backgroundColor: colors.white
+    alignItems: "center"
+  },
+
+  display: {
+    fontSize: 40,
+    marginBottom: 20
+  },
+
+  container: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    gap: 10
   }
+
 });
